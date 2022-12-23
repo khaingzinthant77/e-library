@@ -1,0 +1,203 @@
+ .dataTable {
+          margin-top: 20px;
+        }
+
+        .table thead {
+          background-color: #FFF;
+        }
+
+
+
+        .dataTables_wrapper label .bootstrap-select {
+          max-width: 70px
+        }
+
+        .table:not(.permission-table) thead th {
+          border-bottom: none;
+            border-top: none;
+        }
+
+        .table td {
+          border-bottom: 1px solid #f5f5f5;
+        }
+
+        .table:not(.permission-table) tr:last-child td {
+          border-bottom: none;
+        }
+
+        table.dataTable {
+          background-color: #FFF;
+            border-collapse: collapse !important;
+            border-radius: 5px;
+          box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+        }
+
+        table.dataTable.no-shadow {
+          box-shadow: none;
+        }
+
+        .table thead th {
+          border-bottom: 1px solid #e4e6fc
+        }
+
+
+        .dataTables_wrapper {
+          margin-top: 30px;
+        }
+
+        .dataTables_filter,
+        .dataTables_length,
+        .dt-buttons {
+          float: left;
+          vertical-align: middle;
+          width: 30%;
+        } 
+
+        .dt-buttons {
+          display: inline-block;
+          text-align: right;
+          width: 40%;
+        }
+
+        .dt-buttons button {
+          padding: 0.25rem 0.75rem;
+        }
+
+        .dt-buttons button span {
+          color: #FFF;
+        }
+
+        .dt-button-collection.dropdown-menu {
+          background: #7c5cc4;
+          padding: 10px 15px;
+        }
+
+        .dt-button-collection.dropdown-menu a {
+          background: transparent;
+          font-size: 14px;
+          line-height: 30px;
+        }
+
+        .buttons-pdf {
+          background: #ff7588;
+          border: none;
+        }
+
+        .buttons-csv {
+          background: #ffc107;
+          border: none;
+        }
+
+        .buttons-print {
+          background: #2196f3;
+          border: none;
+        }
+
+        .buttons-delete {
+          background: #eb543a;
+          border: none;
+        }
+
+        .buttons-collection {
+          background: #7c5cc4;
+          border: none;
+        }
+
+        .dataTables_info, .dataTables_paginate {
+            display: table-cell;
+            width: 50%;
+            float: left;
+            padding-top: 10px;
+        }
+
+        .dataTables_paginate {
+          text-align: right;
+        }
+
+        .page-item.active .page-link {
+            color: #fff;
+            background-color: #7c5cc4;
+            border-color: #7c5cc4;
+        }
+
+
+        .table.totals tr td {
+          vertical-align: middle;
+        }
+
+        .table.order-list tr td .btn-link,
+        .table.totals tr td .btn-link {
+          color: #7c5cc4;
+        }
+
+
+
+        .table-bordered td, .table-bordered th {
+          border-color: #e4e6fc
+        }
+
+         table.dataTable tbody > tr:hover {
+            background-color: #f5f5f5;
+            cursor: pointer;
+        }
+
+        table.dataTable tbody > tr.selected, table.dataTable tbody > tr > .selected {
+            background-color: #f5f5f5;
+        }
+
+        table.dataTable tbody > tr.selected td, table.dataTable tbody > tr > .selected td {
+            color: #666;
+        }
+
+
+        table.dataTable tbody td.dt-checkboxes-cell {
+          vertical-align: middle;
+        }
+
+        .table{
+            display: block;
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+
+        .pagination {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            padding-left: 0;
+            list-style: none;
+            border-radius: .25rem;
+        }
+
+        i {
+            display: inline-block;
+        }
+        i, a {
+            letter-spacing: normal;
+        }
+        *, ::after, ::before {
+            box-sizing: border-box;
+        }
+        .page-item.disabled .page-link {
+            color: #868e96;
+            background-color: #fff;
+            opacity: 0.7;
+        }
+
+        .table-responsive{
+          overflow-x:auto !important; 
+        }
+        tr{
+          cursor: pointer;
+        }
+        tr .dataTables_empty{
+            cursor: default;
+
+        }
+        .nav-item{
+            border-top: 0.5px solid #ebedef;
+            border-left: 0.5px solid #ebedef;
+            border-right: 0.5px solid #ebedef;
+            border-radius: 5px;
+            margin: 0.5px;
+        }

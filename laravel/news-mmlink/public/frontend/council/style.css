@@ -1,0 +1,95 @@
+/* ========css for event council======= */
+.event_container{
+  padding: 0 40px;
+}
+.all_association .head {
+    color: #929292;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: 'Myanmar Sans Pro', sans-serif;
+}
+.all_association .head{
+  color: #424242;
+  font-weight: 900;
+  font-size: 22px;
+}
+.ass_bx{
+  padding: 30px 0;
+}
+
+.member_bx{
+  text-align: center; 
+  min-height: 215px;
+  margin-top: 15px;
+}
+.name_pos h4{
+  font-weight: 600;
+  color: #858585;
+  font-size:18px;
+  margin-bottom: 0;
+  font-family: 'Myanmar Sans Pro', sans-serif;
+}
+.name_pos h5{
+  font-family: 'Myanmar Sans Pro', sans-serif;
+}
+.pos{
+  color: #929292;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Myanmar Sans Pro', sans-serif;
+}
+.member_img{
+  width: 170px;
+  margin: 0 auto;
+}
+.member_img img{
+  border-radius: 100%;
+} 
+
+.space20  {    margin-top: 20px  !important;  }
+
+.small_head{
+  color:#db052c;
+  font-family: 'Myanmar Sans Pro', sans-serif;
+}
+
+.text-red {   color: #1BBD36 !important;   }
+
+.span_1_of_5 {
+  width: 18.72%;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+
+/*============strat membership css============*/
+ 
+.department.membership .table {
+    width: 100%;
+}
+.redcircle{
+  background: #db052c;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.department.membership .table tbody td{
+  text-align: center;
+}
+.department.membership .table tbody tr td{
+  width: auto;
+}
+.membership .table tfoot tr td{
+  text-align: center;
+  font-weight: 900;
+ 
+}
+
